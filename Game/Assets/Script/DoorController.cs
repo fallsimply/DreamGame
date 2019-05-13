@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorController : MonoBehaviour {
-	// Start is called before the first frame update
+	public float RotateDeg = -90f;
+	public bool Enabled = true;
+	private Material Mat;
 
 	void Start() {
+		Mat = GetComponentInChildren<Renderer>().material;
 
-	}
-
-	// Update is called once per frame
-	void Update() {
-
+		if (!Enabled) {
+			Mat.color = Color.black;
+		}
 	}
 
 	void OnCollisionEnter(Collision hit) {
-		// if (hit.gameObject.CompareTag("Door")) {
+		if (!Enabled) return;
 		this.gameObject.transform.Rotate(0, -90f, 0);
-		Debug.Log(ColliderHit);
-		// }
 	}
 }

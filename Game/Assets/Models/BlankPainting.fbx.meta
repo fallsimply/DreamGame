@@ -1,39 +1,26 @@
 fileFormatVersion: 2
-guid: 8ea78de2dfbfcdb44a0c77327437ea12
+guid: 7517644c865486d45913242a5978d283
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Camera
-    100002: Cube
-    100004: Cube.001
-    100006: Lamp
-    100008: //RootNode
-    400000: Camera
-    400002: Cube
-    400004: Cube.001
-    400006: Lamp
-    400008: //RootNode
+    100000: //RootNode
+    100002: Camera
+    100004: Lamp
+    100006: Plane
+    400000: //RootNode
+    400002: Camera
+    400004: Lamp
+    400006: Plane
     2000000: Camera
     2100000: Material.001
-    2100002: Material.002
-    2300000: Cube
-    2300002: Cube.001
-    3300000: Cube
-    3300002: Cube.001
-    4300000: Cube.001
-    4300002: Cube
+    2100002: Material
+    2300000: Plane
+    2300002: //RootNode
+    3300000: Plane
+    3300002: //RootNode
+    4300000: Plane
     10800000: Lamp
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: ec6ef3783e6d36840bb1326779f88bc6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: e26353500d7c86c4c920b47634715ba8, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

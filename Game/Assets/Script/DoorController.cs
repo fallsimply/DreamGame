@@ -17,6 +17,6 @@ public class DoorController : MonoBehaviour {
 
 	void OnCollisionEnter(Collision hit) {
 		if (!Enabled) return;
-		this.gameObject.transform.Rotate(0, -90f, 0);
+		this.gameObject.transform.Rotate(0, RotateDeg, 0);
 	}
 }

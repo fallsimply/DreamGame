@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2cda226f0a717c044b124d812d3cea91
+guid: b1fe9bde208e5834697d37975411e63c
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Fredericka the Great
+  fontName: Special Elite
   fontNames:
-  - Fredericka the Great
+  - Special Elite
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
